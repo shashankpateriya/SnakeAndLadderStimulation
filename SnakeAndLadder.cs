@@ -19,6 +19,10 @@ namespace SnakeLadder
                 positionOfPlayer = positionOfPlayer + rollDice;
                 positionOfPlayer = positionOfPlayer - 1;
                 Console.WriteLine("Present Position =" + positionOfPlayer);
+				if (positionOfPlayer == 100)
+				{
+					Console.WriteLine("You have won the GAME");
+				}
 				if (rollDice == 0)
 				{
 					positionOfPlayer = positionOfPlayer - rollDice;
