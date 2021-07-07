@@ -70,6 +70,7 @@ namespace SnakeLadder
 					Console.WriteLine("You can only reach till position 100");
 				}
 			}
+			Console.WriteLine("Dice was rolled " + rollDice + " to win the game");
 		}
 	}
 }
